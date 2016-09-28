@@ -23,9 +23,3 @@ when "redhat", "centos", "fedora", "amazon", "scientific"
 when "ubuntu", "debian"
   include_recipe "php"
 end
-
-include_recipe "chef-php-extra::module_dev"
-include_recipe "chef-php-extra::module_mcrypt"
-include_recipe "chef-php-extra::module_soap"
-include_recipe "chef-php-extra::module_xml"
-include_recipe "chef-php-extra::module_gd"
